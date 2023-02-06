@@ -1,0 +1,32 @@
+{
+  "name": "cuco-health",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "json-server --watch db.json --port 3000 & vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "vite lint"
+  },
+  "dependencies": {
+    "@jamescoyle/vue-icon": "^0.1.2",
+    "@mdi/light-js": "^0.2.63",
+    "axios": "^1.3.2",
+    "bootstrap": "^5.2.3",
+    "core-js": "^3.27.2",
+    "json-server": "^0.17.1",
+    "v-mask": "^2.3.0",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6",
+    "vue-sweetalert2": "^5.0.5",
+    "vue-the-mask": "^0.11.1",
+    "vuejs-paginate-next": "^1.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "node-sass": "^8.0.0",
+    "sass-loader": "^13.2.0",
+    "vite": "^4.1.0"
+  }
+}
