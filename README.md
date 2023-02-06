@@ -1,5 +1,7 @@
 # Cuco-Health project
 - CRUD de clientes utilizando VueJS e JSON Server
+- Deploy realizado no Netlify:
+https://peaceful-marzipan-790a57.netlify.app/
 
 ### Bibliotecas utilizadas
 ```
